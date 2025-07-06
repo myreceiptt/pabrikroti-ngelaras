@@ -1,7 +1,17 @@
-PABRIK ROTI v.2.1.11: Staging NFT Indonesia by Ngelaras Roso!
+# PABRIK ROTI [![version](https://img.shields.io/badge/version-2.1.11.1-blue)](https://github.com/myreceiptt/pabrikroti-ngelaras/releases/tag/v.2.1.11.1)
 
-Link #1: https://www.ngelarasroso.id/  
-Link #2: https://ngelaras.endhonesa.com/
+> "This is not just a factory. This is a rehearsal of freedom—kneaded with code, fermented by its community, and baked through the heat of shared struggles."
+>
+> — Prof. NOTA
+
+---
+
+## PABRIK ROTI v.2.1.11: Staging NFT Indonesia by Ngelaras Roso
+
+Link #1: [www.ngelarasroso.id](https://www.ngelarasroso.id/)  
+Link #2: [ngelaras.endhonesa.com](https://ngelaras.endhonesa.com/)
+
+🧬 Forked from [PABRIKROTI-MASTER](https://github.com/myreceiptt/pabrikroti-master/tree/ngelaras)
 
 ## 📜 License
 
@@ -66,6 +76,6 @@ yarn start
 - [Prof. NOTA Console](https://prompt.endhonesa.com/)
 - [Prof. NOTA Tutor](https://baca.endhonesa.com/)
 
-## Join Prof. NOTA Discord!
+## Join Prof. NOTA Discord
 
 For questions or suggestions, join Prof. NOTA discord at [https://discord.gg/5KrsT6MbFm](https://discord.gg/5KrsT6MbFm).
