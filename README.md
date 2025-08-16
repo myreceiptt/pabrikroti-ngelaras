@@ -11,7 +11,7 @@
 Link #1: [www.ngelarasroso.id](https://www.ngelarasroso.id/)  
 Link #2: [ngelaras.endhonesa.com](https://ngelaras.endhonesa.com/)
 
-🧬 Forked from [PABRIKROTI-MASTER](https://github.com/myreceiptt/pabrikroti-master/tree/ngelaras)
+🧬 Forked from [PABRIKROTI-MASTER](https://github.com/myreceiptt/pabrikroti-master/releases/tag/v.2.1.11-ngelaras)
 
 ## 📜 License
 
