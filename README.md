@@ -6,6 +6,68 @@
 
 ---
 
+---
+
+## Maintenance by Prof. NOTA Evergreen Standard
+
+This repo is a **Live Artefact App**: the user-facing UX is intentionally frozen
+(“MINT CLOSED”, no wallet prompts), while the codebase remains buildable and
+production-safe on Vercel.
+
+### Runtime
+
+- Node: **24.x** (local + Vercel)
+- Package manager: **Yarn 4.x** (lockfile: `yarn.lock`)
+- Deploy target: **Vercel**
+
+### Build System
+
+- Next.js **16.x** (Turbopack)
+
+### Monthly Safe Updates (recommended)
+
+Monthly is **monitor + verify**, not modernization.
+
+1. Check what’s outdated (report only):
+
+   - `yarn up -i`
+
+2. Security report (report only unless explicitly approved):
+
+   - `yarn npm audit --severity moderate`
+
+3. Verify build reproducibility:
+
+   - `yarn build`
+
+4. Verify production sanity:
+
+   - Confirm “MINT CLOSED”
+   - Confirm no wallet prompts / connect flows
+   - Confirm no critical console errors
+
+### Major Updates (quarterly / scheduled)
+
+Major upgrades must be done **one at a time**, with a dedicated PR and full testing.
+Artefact UX must remain unchanged.
+
+Examples:
+
+- React major version upgrade
+- Web3 stack upgrade (e.g., web3 v1 → v4)
+- Toolchain changes
+- Node major policy change
+
+### Artefact UX Policy (Frozen)
+
+- Minting must remain **disabled**
+- Wallet connect must remain **disabled**
+- Any functional change requires a versioned successor (new tag/release)
+
+---
+
+---
+
 ## PABRIK ROTI v.2.1.11: Staging NFT Indonesia by Ngelaras Roso
 
 Link #1: [www.ngelarasroso.id](https://www.ngelarasroso.id/)  
@@ -37,13 +99,13 @@ yarn
 ### Check outdated dependencies
 
 ```bash
-yarn outdated
+yarn up -i
 ```
 
 ### Upgrade dependencies interactively
 
 ```bash
-yarn upgrade-interactive --latest
+yarn up -i
 ```
 
 ### Start development server
