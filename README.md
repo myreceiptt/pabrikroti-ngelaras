@@ -35,7 +35,7 @@ This repo was built to present a public proposal for **NGELARAS ROSO**—a physi
 
 ### How we build (quality + workflow)
 
-- We ship production-safe changes and keep the app buildable on Node 24 / Vercel.
+- We ship production-safe changes and keep the app buildable on Node / Vercel.
 - We run controlled dependency upgrades and always verify with audit/lint/build.
 - We keep the “Live Artefact App” policy intact: user-facing UX stays frozen unless a versioned successor is intentionally created.
 
